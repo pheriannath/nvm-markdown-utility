@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# NVM Markdown Utility
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In the main textarea, start typing whatever you would like. You'll see a rough preview in the right column.
 
-## Available Scripts
+When satisfied, press the "Convert" button to convert your Markdown to a single line, appropriate for usage in the Instructions (or description). From there, either copy the contents of the text box manually, or press the "Copy to Clipboard" button.
 
-In the project directory, you can run:
+Finally, press the "Reset" button to start over.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The following Markdown features are allowed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Headings (h1-h6)
+- Bold text (both \*\* and \_\_ syntax)
+- Italic text (both \* and \_ syntax)
+- Unordered lists (-, \*, + markers)
+- Ordered lists (1., 2., etc.)
+- Horizontal rules (---)
+- Regular paragraph text with typographer features enabled
 
-### `npm test`
+It disallows the following Markdown features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Backticks/inline code
+- Strikethrough (text)
+- Footnotes
+- Links and images
+- Blockquotes
+- Code blocks (both indented and fenced)
+- Definition lists
+- Tables
+- HTML tags
